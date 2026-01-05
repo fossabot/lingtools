@@ -1,0 +1,2 @@
+- Created a base for the next project and this must be used for logs xD
+[danboy-lab | 05/01/2025]
