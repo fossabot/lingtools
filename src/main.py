@@ -1,9 +1,12 @@
 import spacy
 
-nlp = spacy.load("pt_core_news_sm")
+nlp = spacy.load("pt_core_news_sm") # Portuguese for while
 
-texto = input("TEXTO: ")
-doc = nlp(texto)
-
+text = "Texto usado para exemplos futuros"
+doc = nlp(text)
 for token in doc:
-   print(f"palavra {token.text} {token.lemma} {token.pos} {token.morph}" )
+   treated = f"{token.text}\n {token.lemma}\n {token.pos}\n {token.morph}\n |||"
+   with open("results.txt", "a") as file:
+      file.write(treated)
+
+
