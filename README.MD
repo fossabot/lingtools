@@ -1,4 +1,6 @@
 # Text Analysis Tool (Python)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdanboy-lab%2Flingtools.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdanboy-lab%2Flingtools?ref=badge_shield)
+
 
 ## Overview
 
@@ -32,3 +34,7 @@ It is designed for educational, linguistic, and basic natural language processin
 - Vocabulary richness (type-token ratio)
 - Most frequent words
 - Basic readability metrics
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdanboy-lab%2Flingtools.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdanboy-lab%2Flingtools?ref=badge_large)
